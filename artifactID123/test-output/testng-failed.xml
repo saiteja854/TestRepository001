@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="loginTest.LoginTest1">
+        <methods>
+          <include name="webdriverInitialize"/>
+          <include name="login"/>
+          <include name="login"/>
+          <include name="login"/>
+          <include name="login"/>
+          <include name="afterclass"/>
+        </methods>
+      </class> <!-- loginTest.LoginTest1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

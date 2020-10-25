@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="8" failed="4" ignored="0" total="24" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="127063" started-at="2020-10-24T23:59:51 IST" finished-at="2020-10-25T00:01:58 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="127063" started-at="2020-10-24T23:59:51 IST" finished-at="2020-10-25T00:01:58 IST">
+      <class name="loginTest.LoginTest1">
+        <test-method status="PASS" signature="webdriverInitialize()[pri:0, instance:loginTest.LoginTest1@7c9d8e2]" name="webdriverInitialize" is-config="true" duration-ms="3215" started-at="2020-10-24T23:59:51 IST" finished-at="2020-10-24T23:59:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webdriverInitialize -->
+        <test-method status="PASS" signature="login()[pri:0, instance:loginTest.LoginTest1@131ef10, instance params:[mngr291854, ynUheny]]" name="login" duration-ms="5354" started-at="2020-10-24T23:59:55 IST" finished-at="2020-10-25T00:00:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="webdriverInitialize()[pri:0, instance:loginTest.LoginTest1@7c9d8e2]" name="webdriverInitialize" is-config="true" duration-ms="1962" started-at="2020-10-25T00:00:00 IST" finished-at="2020-10-25T00:00:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webdriverInitialize -->
+        <test-method status="PASS" signature="login()[pri:0, instance:loginTest.LoginTest1@23348b5d, instance params:[mngr291854, ynUheny]]" name="login" duration-ms="9330" started-at="2020-10-25T00:00:02 IST" finished-at="2020-10-25T00:00:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="webdriverInitialize()[pri:0, instance:loginTest.LoginTest1@7c9d8e2]" name="webdriverInitialize" is-config="true" duration-ms="3145" started-at="2020-10-25T00:00:11 IST" finished-at="2020-10-25T00:00:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webdriverInitialize -->
+        <test-method status="FAIL" signature="login()[pri:0, instance:loginTest.LoginTest1@2df3b89c, instance params:[Sumit, sged]]" name="login" duration-ms="11088" started-at="2020-10-25T00:00:14 IST" finished-at="2020-10-25T00:00:25 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Incorrect username and passwordSumit]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Incorrect username and passwordSumit
+at org.testng.Assert.fail(Assert.java:97)
+at loginTest.LoginTest1.login(LoginTest1.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="webdriverInitialize()[pri:0, instance:loginTest.LoginTest1@7c9d8e2]" name="webdriverInitialize" is-config="true" duration-ms="3380" started-at="2020-10-25T00:00:25 IST" finished-at="2020-10-25T00:00:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webdriverInitialize -->
+        <test-method status="FAIL" signature="login()[pri:0, instance:loginTest.LoginTest1@37ceb1df, instance params:[Amit, aaa]]" name="login" duration-ms="10059" started-at="2020-10-25T00:00:29 IST" finished-at="2020-10-25T00:00:39 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Incorrect username and passwordAmit]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Incorrect username and passwordAmit
+at org.testng.Assert.fail(Assert.java:97)
+at loginTest.LoginTest1.login(LoginTest1.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="webdriverInitialize()[pri:0, instance:loginTest.LoginTest1@7c9d8e2]" name="webdriverInitialize" is-config="true" duration-ms="3636" started-at="2020-10-25T00:00:39 IST" finished-at="2020-10-25T00:00:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webdriverInitialize -->
+        <test-method status="FAIL" signature="login()[pri:0, instance:loginTest.LoginTest1@38afe297, instance params:[Amit, aaa]]" name="login" duration-ms="9099" started-at="2020-10-25T00:00:43 IST" finished-at="2020-10-25T00:00:52 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Incorrect username and passwordAmit]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Incorrect username and passwordAmit
+at org.testng.Assert.fail(Assert.java:97)
+at loginTest.LoginTest1.login(LoginTest1.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="webdriverInitialize()[pri:0, instance:loginTest.LoginTest1@7c9d8e2]" name="webdriverInitialize" is-config="true" duration-ms="3580" started-at="2020-10-25T00:00:52 IST" finished-at="2020-10-25T00:00:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webdriverInitialize -->
+        <test-method status="PASS" signature="login()[pri:0, instance:loginTest.LoginTest1@55b0dcab, instance params:[mngr291855, sEzUdUg]]" name="login" duration-ms="13929" started-at="2020-10-25T00:00:55 IST" finished-at="2020-10-25T00:01:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="webdriverInitialize()[pri:0, instance:loginTest.LoginTest1@7c9d8e2]" name="webdriverInitialize" is-config="true" duration-ms="3863" started-at="2020-10-25T00:01:09 IST" finished-at="2020-10-25T00:01:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webdriverInitialize -->
+        <test-method status="PASS" signature="login()[pri:0, instance:loginTest.LoginTest1@70325e14, instance params:[mngr291855, sEzUdUg]]" name="login" duration-ms="10163" started-at="2020-10-25T00:01:13 IST" finished-at="2020-10-25T00:01:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="webdriverInitialize()[pri:0, instance:loginTest.LoginTest1@7c9d8e2]" name="webdriverInitialize" is-config="true" duration-ms="4610" started-at="2020-10-25T00:01:23 IST" finished-at="2020-10-25T00:01:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webdriverInitialize -->
+        <test-method status="FAIL" signature="login()[pri:0, instance:loginTest.LoginTest1@7c9d8e2, instance params:[Sumit, sged]]" name="login" duration-ms="12065" started-at="2020-10-25T00:01:28 IST" finished-at="2020-10-25T00:01:40 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Incorrect username and passwordSumit]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Incorrect username and passwordSumit
+at org.testng.Assert.fail(Assert.java:97)
+at loginTest.LoginTest1.login(LoginTest1.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="maximize()[pri:0, instance:loginTest.LoginTest1@131ef10, instance params:[mngr291854, ynUheny]]" name="maximize" duration-ms="223" started-at="2020-10-25T00:01:40 IST" depends-on-methods="loginTest.LoginTest1.login" finished-at="2020-10-25T00:01:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maximize -->
+        <test-method status="PASS" signature="maximize()[pri:0, instance:loginTest.LoginTest1@23348b5d, instance params:[mngr291854, ynUheny]]" name="maximize" duration-ms="477" started-at="2020-10-25T00:01:40 IST" depends-on-methods="loginTest.LoginTest1.login" finished-at="2020-10-25T00:01:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maximize -->
+        <test-method status="SKIP" signature="maximize()[pri:0, instance:loginTest.LoginTest1@2df3b89c, instance params:[Sumit, sged]]" name="maximize" duration-ms="0" started-at="2020-10-25T00:01:41 IST" depends-on-methods="loginTest.LoginTest1.login" finished-at="2020-10-25T00:01:41 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method LoginTest1.maximize()[pri:0, instance:loginTest.LoginTest1@2df3b89c, instance params:[Sumit, sged]] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method LoginTest1.maximize()[pri:0, instance:loginTest.LoginTest1@2df3b89c, instance params:[Sumit, sged]] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maximize -->
+        <test-method status="SKIP" signature="maximize()[pri:0, instance:loginTest.LoginTest1@37ceb1df, instance params:[Amit, aaa]]" name="maximize" duration-ms="0" started-at="2020-10-25T00:01:41 IST" depends-on-methods="loginTest.LoginTest1.login" finished-at="2020-10-25T00:01:41 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method LoginTest1.maximize()[pri:0, instance:loginTest.LoginTest1@37ceb1df, instance params:[Amit, aaa]] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method LoginTest1.maximize()[pri:0, instance:loginTest.LoginTest1@37ceb1df, instance params:[Amit, aaa]] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maximize -->
+        <test-method status="SKIP" signature="maximize()[pri:0, instance:loginTest.LoginTest1@38afe297, instance params:[Amit, aaa]]" name="maximize" duration-ms="0" started-at="2020-10-25T00:01:41 IST" depends-on-methods="loginTest.LoginTest1.login" finished-at="2020-10-25T00:01:41 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method LoginTest1.maximize()[pri:0, instance:loginTest.LoginTest1@38afe297, instance params:[Amit, aaa]] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method LoginTest1.maximize()[pri:0, instance:loginTest.LoginTest1@38afe297, instance params:[Amit, aaa]] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maximize -->
+        <test-method status="PASS" signature="maximize()[pri:0, instance:loginTest.LoginTest1@55b0dcab, instance params:[mngr291855, sEzUdUg]]" name="maximize" duration-ms="532" started-at="2020-10-25T00:01:41 IST" depends-on-methods="loginTest.LoginTest1.login" finished-at="2020-10-25T00:01:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maximize -->
+        <test-method status="PASS" signature="maximize()[pri:0, instance:loginTest.LoginTest1@70325e14, instance params:[mngr291855, sEzUdUg]]" name="maximize" duration-ms="806" started-at="2020-10-25T00:01:41 IST" depends-on-methods="loginTest.LoginTest1.login" finished-at="2020-10-25T00:01:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maximize -->
+        <test-method status="SKIP" signature="maximize()[pri:0, instance:loginTest.LoginTest1@7c9d8e2, instance params:[Sumit, sged]]" name="maximize" duration-ms="0" started-at="2020-10-25T00:01:42 IST" depends-on-methods="loginTest.LoginTest1.login" finished-at="2020-10-25T00:01:42 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method LoginTest1.maximize()[pri:0, instance:loginTest.LoginTest1@7c9d8e2, instance params:[Sumit, sged]] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method LoginTest1.maximize()[pri:0, instance:loginTest.LoginTest1@7c9d8e2, instance params:[Sumit, sged]] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maximize -->
+        <test-method status="PASS" signature="NewCustomer()[pri:0, instance:loginTest.LoginTest1@131ef10, instance params:[mngr291854, ynUheny]]" name="NewCustomer" duration-ms="3622" started-at="2020-10-25T00:01:42 IST" depends-on-methods="loginTest.LoginTest1.maximize" finished-at="2020-10-25T00:01:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewCustomer -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:loginTest.LoginTest1@7c9d8e2]" name="afterclass" is-config="true" duration-ms="1" started-at="2020-10-25T00:01:46 IST" finished-at="2020-10-25T00:01:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="NewCustomer()[pri:0, instance:loginTest.LoginTest1@23348b5d, instance params:[mngr291854, ynUheny]]" name="NewCustomer" duration-ms="5061" started-at="2020-10-25T00:01:46 IST" depends-on-methods="loginTest.LoginTest1.maximize" finished-at="2020-10-25T00:01:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewCustomer -->
+        <test-method status="SKIP" signature="NewCustomer()[pri:0, instance:loginTest.LoginTest1@2df3b89c, instance params:[Sumit, sged]]" name="NewCustomer" duration-ms="0" started-at="2020-10-25T00:01:51 IST" depends-on-methods="loginTest.LoginTest1.maximize" finished-at="2020-10-25T00:01:51 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method LoginTest1.NewCustomer()[pri:0, instance:loginTest.LoginTest1@2df3b89c, instance params:[Sumit, sged]] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method LoginTest1.NewCustomer()[pri:0, instance:loginTest.LoginTest1@2df3b89c, instance params:[Sumit, sged]] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewCustomer -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:loginTest.LoginTest1@7c9d8e2]" name="afterclass" is-config="true" duration-ms="0" started-at="2020-10-25T00:01:51 IST" finished-at="2020-10-25T00:01:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:loginTest.LoginTest1@7c9d8e2]" name="afterclass" is-config="true" duration-ms="1" started-at="2020-10-25T00:01:51 IST" finished-at="2020-10-25T00:01:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="SKIP" signature="NewCustomer()[pri:0, instance:loginTest.LoginTest1@37ceb1df, instance params:[Amit, aaa]]" name="NewCustomer" duration-ms="0" started-at="2020-10-25T00:01:51 IST" depends-on-methods="loginTest.LoginTest1.maximize" finished-at="2020-10-25T00:01:51 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method LoginTest1.NewCustomer()[pri:0, instance:loginTest.LoginTest1@37ceb1df, instance params:[Amit, aaa]] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method LoginTest1.NewCustomer()[pri:0, instance:loginTest.LoginTest1@37ceb1df, instance params:[Amit, aaa]] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewCustomer -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:loginTest.LoginTest1@7c9d8e2]" name="afterclass" is-config="true" duration-ms="1" started-at="2020-10-25T00:01:51 IST" finished-at="2020-10-25T00:01:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="SKIP" signature="NewCustomer()[pri:0, instance:loginTest.LoginTest1@38afe297, instance params:[Amit, aaa]]" name="NewCustomer" duration-ms="0" started-at="2020-10-25T00:01:51 IST" depends-on-methods="loginTest.LoginTest1.maximize" finished-at="2020-10-25T00:01:51 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method LoginTest1.NewCustomer()[pri:0, instance:loginTest.LoginTest1@38afe297, instance params:[Amit, aaa]] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method LoginTest1.NewCustomer()[pri:0, instance:loginTest.LoginTest1@38afe297, instance params:[Amit, aaa]] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewCustomer -->
+        <test-method status="PASS" signature="NewCustomer()[pri:0, instance:loginTest.LoginTest1@55b0dcab, instance params:[mngr291855, sEzUdUg]]" name="NewCustomer" duration-ms="4540" started-at="2020-10-25T00:01:51 IST" depends-on-methods="loginTest.LoginTest1.maximize" finished-at="2020-10-25T00:01:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewCustomer -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:loginTest.LoginTest1@7c9d8e2]" name="afterclass" is-config="true" duration-ms="0" started-at="2020-10-25T00:01:51 IST" finished-at="2020-10-25T00:01:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:loginTest.LoginTest1@7c9d8e2]" name="afterclass" is-config="true" duration-ms="0" started-at="2020-10-25T00:01:55 IST" finished-at="2020-10-25T00:01:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="PASS" signature="NewCustomer()[pri:0, instance:loginTest.LoginTest1@70325e14, instance params:[mngr291855, sEzUdUg]]" name="NewCustomer" duration-ms="3069" started-at="2020-10-25T00:01:55 IST" depends-on-methods="loginTest.LoginTest1.maximize" finished-at="2020-10-25T00:01:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewCustomer -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:loginTest.LoginTest1@7c9d8e2]" name="afterclass" is-config="true" duration-ms="0" started-at="2020-10-25T00:01:58 IST" finished-at="2020-10-25T00:01:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method status="SKIP" signature="NewCustomer()[pri:0, instance:loginTest.LoginTest1@7c9d8e2, instance params:[Sumit, sged]]" name="NewCustomer" duration-ms="0" started-at="2020-10-25T00:01:58 IST" depends-on-methods="loginTest.LoginTest1.maximize" finished-at="2020-10-25T00:01:58 IST">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method LoginTest1.NewCustomer()[pri:0, instance:loginTest.LoginTest1@7c9d8e2, instance params:[Sumit, sged]] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method LoginTest1.NewCustomer()[pri:0, instance:loginTest.LoginTest1@7c9d8e2, instance params:[Sumit, sged]] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewCustomer -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:loginTest.LoginTest1@7c9d8e2]" name="afterclass" is-config="true" duration-ms="1" started-at="2020-10-25T00:01:58 IST" finished-at="2020-10-25T00:01:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- loginTest.LoginTest1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
