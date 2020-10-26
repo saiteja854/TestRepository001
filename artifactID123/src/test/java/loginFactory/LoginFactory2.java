@@ -22,11 +22,14 @@ public class LoginFactory2  extends GeneralFunctionalities{
 			
 		@DataProvider(name="dt")
 		public String[][] dataprovider() throws InvalidFormatException, IOException{
+			System.out.println("Added new lines of code");
+			System.out.println("Push");
 			String chromePath="C:\\Users\\amalbari\\Documents\\chromedriver\\chromedriver.exe";
 			System.setProperty("webdriver.chrome.driver", chromePath);
 			WebDriver driver=new ChromeDriver();
 			String a[][]=excelRead("C:\\Users\\amalbari\\Desktop\\Username.xlsx");
 			return a;
+			
 		}
 		
 
